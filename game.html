@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body> 
+
+<h1>My Web Page</h1>
+
+<p id="demo">Debug</p>
+
+<button type="button" onclick="myFunction()">Debug</button>
+
+<script>
+//localStorage.setItem("Ryan", "Ryan");
+localStorage.removeItem("lastname");
+localStorage.Ryan = "I'm Ryan";
+localStorage.Paul = "I paull"
+function myFunction() {
+   document.getElementById("demo").innerHTML = localStorage.Paul;
+   
+   window.localStorage;
+   // Store
+//localStorage.setItem("lastname", "Smith");
+// Retrieve
+document.getElementById("result").innerHTML = localStorage.getItem("lastname");
+// Store
+localStorage.lastname = "Smith";
+// Retrieve
+document.getElementById("result").innerHTML = localStorage.lastname;
+var index = 0;
+for (i = 0; i < index.length; i++) 
+{ 
+    text += cars[i] + "<br>";
+}
+var node = {x:"0",y:"20",cardtype:"5" };
+}
+</script>
+
+</body>
+</html>
